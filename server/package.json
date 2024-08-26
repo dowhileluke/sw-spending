@@ -1,0 +1,26 @@
+{
+  "name": "sw-spending-server",
+  "version": "1.0.0",
+  "description": "sw-server-spending",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node-fetch": "^2.6.11",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.87.0",
+    "@nivo/line": "^0.87.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
