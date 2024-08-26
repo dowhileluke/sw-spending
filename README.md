@@ -18,3 +18,7 @@ and within `client` run:
 npm i
 npm start
 ```
+
+### Note on Node
+
+This project was developed using Node v20. If issues arise using earlier versions, I suggest using [NVM](https://github.com/nvm-sh/nvm) which provides an easy interface for temporarily switching Node environments.
