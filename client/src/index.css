@@ -90,6 +90,11 @@ select {
   padding: 4px 8px;
 }
 
+option {
+  color: var(--text);
+  background-color: var(--bg);
+}
+
 .note {
   font-size: 70%;
   opacity: 0.8;
